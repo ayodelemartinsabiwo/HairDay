@@ -145,7 +145,8 @@ main section:nth-child(2) img{
 
 main section:nth-child(3){
     flex-wrap: wrap;
-    gap: 4%;
+    gap: 2%;
+    flex: 1 0 auto;
 }
 
 section:nth-child(3) h2{
@@ -154,6 +155,52 @@ section:nth-child(3) h2{
 
 main section:nth-child(3) article:nth-child(1){
     flex: 1 1 auto;
+}
+
+main section:nth-child(3) article:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    flex: auto;
+}
+
+
+#services div > div:nth-child(3) img{
+    height: 22.3rem;
+
+
+}
+
+#services1{
+    padding-top: 20px;
+}
+
+#services > div:nth-child(1) h2{
+    text-align: left;
+    padding-left: 10rem;
+}
+
+#services > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+    justify-content: space-between;
+    /* background-color: #fb3232; */
+    /* flex: 1 1 auto; */
+    /* max-width: 150%; */
+    /* background-color: #fb3232; */
+    /* padding: 0; */
+    flex: 1 0 auto;
+}
+
+#services div div img{
+    border-radius: 10%;
+    width: 22rem;
+
 }
 
 section article p #booklnk{
@@ -425,6 +472,15 @@ footer div p > img{
         /* margin-left: auto; */
         /* margin-top: auto;
     } */
+
+    #services > div:nth-child(2){
+        display: block;
+
+    }
+
+    #services > div:nth-child(1) h2{
+        padding-left: 0;
+    }
 }
 
 
@@ -510,6 +566,8 @@ footer div p > img{
         width: 65%;
     }
 
+
+
 }
 
 @media screen and (max-width: 1669px){
@@ -520,6 +578,13 @@ footer div p > img{
     .a{
         width: 60%;
     }
+
+    #services > div:nth-child(2){
+        /* background-color: #fb3232; */
+        gap: 1rem;
+
+    }
+
 
 }
 
