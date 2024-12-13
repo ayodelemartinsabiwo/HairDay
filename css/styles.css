@@ -166,11 +166,19 @@ main section:nth-child(3) article:nth-child(2){
     flex: auto;
 }
 
+/* #services {
+    background-color: #fb3232;
+    width: 100%;
+
+} */
+
+#services div div img{
+    border-radius: 10%;
+    width: 100% !important;
+}
 
 #services div > div:nth-child(3) img{
-    height: 22.3rem;
-
-
+    height: 23rem !important;
 }
 
 #services1{
@@ -179,7 +187,7 @@ main section:nth-child(3) article:nth-child(2){
 
 #services > div:nth-child(1) h2{
     text-align: left;
-    padding-left: 10rem;
+    padding-left: 9rem;
 }
 
 #services > div:nth-child(2){
@@ -197,11 +205,6 @@ main section:nth-child(3) article:nth-child(2){
     flex: 1 0 auto;
 }
 
-#services div div img{
-    border-radius: 10%;
-    width: 22rem;
-
-}
 
 section article p #booklnk{
     text-decoration: none;
@@ -388,8 +391,190 @@ footer div p > img{
 }
 
 
+@media screen and (max-width: 1669px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 40rem;
+    }
 
-@media screen and (max-width: 770px){
+    .a{
+        width: 60%;
+    }
+
+    #services > div:nth-child(2){
+        /* background-color: #fb3232; */
+        gap: 1rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1500px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 37rem;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 33rem;
+    }
+}
+
+
+@media (max-width: 1280px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 35rem;
+    }
+
+    .a{
+        width: 65%;
+    }
+
+    #services {
+        width: 100%;
+    }
+
+
+    #services > div:nth-child(1) h2{
+
+        padding-left: 5rem;
+    }
+
+    #services div:nth-child(2) > div:nth-child(3) img{
+        height: 13rem !important;
+        width: 12rem ;
+    }
+
+    #services div:nth-child(2) img{
+        border-radius: 10%;
+        width: 13rem !important;
+
+
+    }
+
+    /* #services div:nth-child(2){
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    footer div img{
+        width: 6rem !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1225px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 30rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    section:nth-child(3) article #saloonImg{
+        min-height: 28rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    header > img{
+        width: 30%;
+    }
+
+    footer div p > img{
+        width: 45%;
+    }
+
+    footer div{
+        font-size: 0.7em;
+    }
+
+    main section article > h1{
+        font-size: 1.1rem;
+        width: 160px;
+        padding: 2px 5px;
+
+    }
+
+    section article #p1{
+        font-size: 0.5rem;
+
+    }
+
+    main section:nth-child(1){
+        background-size: 100%;
+        height: 15rem;
+
+    }
+
+    main section:nth-child(2) article:nth-child(2){
+        flex:0 1 150px;
+
+    }
+
+    #saloonImg{
+        flex-wrap: wrap;
+        min-height: 400rem ;
+        gap: 10px;
+    }
+
+    /* section article .saloonEnv{
+        width: 100%;
+
+    } */
+
+    .a{
+        padding-bottom: -15px;
+    }
+    .b{
+        padding-top: 8%;
+    }
+
+    #services > div:nth-child(2) > div:nth-child(3) img{
+        height: 12rem ;
+        width: 13rem ;
+    }
+
+    #services div:nth-child(2) div img{
+        border-radius: 10%;
+        width:12rem;
+
+    }
+
+}
+
+
+@media (min-width: 853px) {
+    section article #saloonImg .c{
+        width: 6rem;
+        top: 0;
+        margin-top: auto;
+
+    }
+
+    .a{
+        padding-bottom: 5%;
+    }
+    .b{
+        padding-top: 5%;
+    }
+
+    #services > div:nth-child(2) > div:nth-child(3) img{
+        height: 11rem;
+        width: 11rem ;
+    }
+
+    #services div div img{
+        border-radius: 10%;
+        width:11rem ;
+
+    }
+}
+
+@media (max-width: 770px){
     header > img{
         width: 30%;
     }
@@ -453,6 +638,10 @@ footer div p > img{
 
     }
 
+    #comb{
+        width: 4rem;
+    }
+
     #saloonImg{
         flex-wrap: wrap;
         min-height: 400rem ;
@@ -473,144 +662,47 @@ footer div p > img{
         /* margin-top: auto;
     } */
 
+    .c{
+        width: 6rem !important;
+    }
+
     #services > div:nth-child(2){
         display: block;
 
     }
 
     #services > div:nth-child(1) h2{
-        padding-left: 0;
-    }
-}
-
-
-@media (max-width: 853px) {
-    section article #saloonImg .c{
-        width: 6rem;
-        top: 0;
-        margin-top: auto;
-
+        padding-left: 5;
     }
 
-    .a{
-        padding-bottom: 5%;
-    }
-    .b{
-        padding-top: 5%;
-    }
 
-}
+    #services div:nth-child(2){
+        /* margin: auto; */
+        text-align: center;
+        width: 23rem;
 
-@media screen and (max-width: 1024px){
-    header > img{
-        width: 30%;
-    }
-
-    footer div p > img{
-        width: 45%;
-    }
-
-    footer div{
-        font-size: 0.7em;
-    }
-
-    main section article > h1{
-        font-size: 1.1rem;
-        width: 160px;
-        padding: 2px 5px;
 
     }
 
-    section article #p1{
-        font-size: 0.5rem;
+    /* #services div:nth-child(2){
 
-    }
-
-    main section:nth-child(1){
-        background-size: 100%;
-        height: 15rem;
-
-    }
-
-    main section:nth-child(2) article:nth-child(2){
-        flex:0 1 150px;
-
-    }
-
-    #saloonImg{
-        flex-wrap: wrap;
-        min-height: 400rem ;
-        gap: 10px;
-    }
-
-    /* section article .saloonEnv{
-        width: 100%;
-
+        background-color: #fb3232;
     } */
 
-    .a{
-        padding-bottom: -15px;
-    }
-    .b{
-        padding-top: 8%;
+    #services > div:nth-child(2) > div:nth-child(3) img{
+        height: 15rem !important;
+        width: 13rem !important;
     }
 
-}
-
-@media screen and (max-width: 1280px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 35rem;
-    }
-
-    .a{
-        width: 65%;
-    }
-
-
-
-}
-
-@media screen and (max-width: 1669px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 40rem;
-    }
-
-    .a{
-        width: 60%;
-    }
-
-    #services > div:nth-child(2){
-        /* background-color: #fb3232; */
-        gap: 1rem;
+    #services div div img{
+        border-radius: 10%;
+        width:15rem !important;
 
     }
 
 
 }
 
-@media screen and (max-width: 1500px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 37rem;
-    }
-}
-
-@media screen and (max-width: 1300px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 33rem;
-    }
-}
-
-@media screen and (max-width: 1225px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 30rem;
-    }
-}
-
-@media screen and (max-width: 1050px){
-    section:nth-child(3) article #saloonImg{
-        min-height: 28rem;
-    }
-}
 
 @media screen and (max-width: 470px){
     header > img{
@@ -655,6 +747,41 @@ footer div p > img{
         height: auto;
         /* width: 100%; */
         object-fit: cover;
+    }
+
+    #comb{
+        width: 3.2rem;
+    }
+
+    /* #services div:nth-child(2){
+        background-color: #fb3232;
+    } */
+
+    #services div:nth-child(2){
+        /* margin: auto; */
+        text-align: center;
+        width: 18rem;
+
+
+    }
+
+    #services div:nth-child(1) h2{
+
+        padding-left: 15%;
+    }
+
+    #services > div:nth-child(2) > div:nth-child(3) img{
+        height: 14rem !important;
+        width: 13rem !important;
+    }
+
+    #services div div img{
+        border-radius: 10%;
+        width:15rem !important;
+
+    }
+    footer div img{
+        width: 3.6rem !important;
     }
 
 }
