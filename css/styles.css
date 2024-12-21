@@ -184,6 +184,7 @@ main section:nth-child(3) article:nth-child(1){
     justify-content: center;
     align-items: center;
     margin-right: 0 !important;
+    margin-top: 30%;
 
 }
 
@@ -711,6 +712,8 @@ footer div p > img{
         padding-top: 5%;
     }
 
+
+
     #services > div:nth-child(2) > div:nth-child(3) img{
         height: 11rem;
         width: 11rem ;
@@ -791,9 +794,65 @@ footer div p > img{
         width: 4rem;
     }
 
-    #saloonImg{
+    /* #saloonImg{
         flex-wrap: wrap;
         min-height: 400rem ;
+    } */
+
+    #saloonImg{
+        display: flex;
+        flex-direction: column;
+        /* height: auto !important; */
+        overflow: hidden;
+        width: 100% !important;
+        max-width: 100% !important;
+        /* background-color: blueviolet; */
+        gap: 1rem !important;
+
+    }
+
+    #lineClipper{
+        /* z-index: 100; */
+        /* background-color: #fb3232; */
+        order: 3;
+        margin-top: inherit !important;
+    }
+
+    #aa{
+        /* flex: 1 1 300% !important; */
+        /* width: 100% !important; */
+        /* max-width: 100% !important; */
+        /* margin: 0; */
+        margin-bottom: 5.5rem;
+        order: 1;
+        /* display: block; */
+        /* background-color: #fb3232; */
+    }
+
+    #aa .aa{
+        width: 214% !important;
+        /* max-width: 100% !important; */
+        /* margin: 0; */
+    }
+
+    #b{
+        display: block;
+        /* flex: 1; */
+        margin: 2rem 0;
+        /* max-width: 100% !important; */
+        /* width: 100% !important; */
+        /* height: auto !important; */
+        order: 2;
+        /* margin-bottom: -18% !important; */
+        /* background-color: #07060465; */
+        text-align: end;
+
+    }
+
+    #b .b{
+        width: 117.6% !important;
+        /* height: auto !important;
+        text-align: center !important; */
     }
 
     section article .saloonEnv{
@@ -838,15 +897,42 @@ footer div p > img{
         background-color: #fb3232;
     } */
 
-    #services > div:nth-child(2) > div:nth-child(3) img{
+    #services > div:nth-child(2)  div:nth-child(3) img{
         height: 15rem !important;
         width: 13rem !important;
+    }
+
+    #services > div:nth-child(2)  div:nth-child(3) img{
+        height: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        /* background-color: #a09191; */
+    }
+
+    .f{
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 1rem !important;
+
+        /* background-color: #a09191; */
+
     }
 
     #services div div img{
         border-radius: 10%;
         width:15rem !important;
 
+    }
+
+    main section #bookForm{
+        margin: 30% -10%;
+        width: 100% !important;
+        padding: 8%;
+    }
+
+    #book{
+        top: 1rem !important;
+        bottom: 0;
     }
 
 
