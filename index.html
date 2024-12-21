@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HairDay</title>
+
     <meta name="description" content="A brief description">
     <meta name="author" content="Hair day Beauty Shop">
 
     <!-- Include your CSS files here -->
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>HairDay</title>
+
 </head>
 <body>
     <header>
@@ -54,28 +57,30 @@
                     makeup and nail<a id="booklnk" href="#tutorial"> tutorials </a>right on our website. Enjoy!</p>
                 <div id="saloonImg">
 
-                    <img class="saloonEnv a" src="images/hairday5.jpg">
-                    <div><hr></div>
-                    <img id="services1" class="c" src="images/hairday5.svg">
-                    <div><hr></div>
-                    <img class="saloonEnv b" src="images/hairday6.jpg">
+                    <div id="aa"><img class="saloonEnv aa" src="images/hairday5.jpg"></div>
+                    <div id="lineClipper">
+                        <div><hr></div>
+                        <img id="services1" class="c" src="images/hairday5.svg">
+                        <div><hr></div>
+                    </div>
+                    <div id="b"><img class="saloonEnv b" src="images/hairday6.jpg"></div>
 
                 </div>
             </article>
             <article id="services">
                 <div><h2>SERVICES</h2></div>
                 <div>
-                    <div>
+                    <div class="serv d">
                         <img src="images/hairday7.jpg">
-                        <h3>Hair Color</h3>
+                        <h4>Hair Color</h4>
                     </div>
-                    <div>
+                    <div class="serv e">
                         <img src="images/hairday8.jpg">
-                        <h3>Hair Cut</h3>
+                        <h4>Hair Cut</h4>
                     </div>
-                    <div>
+                    <div class="serv f">
                         <img src="images/hairday9.jpg">
-                        <h3>Hair Styling</h3>
+                        <h4>Hair Styling</h4>
                     </div>
 
                 </div>
@@ -85,16 +90,24 @@
                 </div> -->
 
             </article>
-            <article>
-                <h2>Header 2</h2>
-                <p>This is par 4.This is par 2. Based in Madison, Wisconsin, Hair Day is a boutique
-                    hair salon that specializes in cut, color and styling. Hair Day
-                    also offers makeup and nail services, prides itself on its warm
-                    and relaxing atmosphere and is best known for edgy hair colors
-                    and on-trend cuts. The salon can only accommodate a small number
-                    of coloring appointments each week, so clients need to book far in advance.
-                    To keep clients inspired between appointments, the employees share
-                    makeup and nail tutorials on the Hair Day website.</p>
+            <div id="book" style=" width: 100px; height: 10px; position: relative; top: 10rem; bottom: 0;"></div>
+            <article id="bookForm">
+                <h2>Book</h2>
+                <p>Your time is our priority.</p>
+                <div id="fm">
+                    <form>
+                        <label for="name" class="form-label mb-3">Name</label>
+                        <input type="text" id="name" placeholder="Enter Your Name" class="form-control mb-3">
+
+                        <label for="email" class="form-label mb-3">Email</label>
+                        <input type="email" id="email" placeholder="Enter Your Email" class="form-control mb-3">
+
+                        <label for="message" class="form-label mb-3">Message</label>
+                        <textarea id="message" placeholder="Enter Your Message" rows="7" cols="1" class="form-control"></textarea>
+
+                        <button type="submit" id="contactBtn" class="btn btn-success btn-lg mt-3">Submit</button>
+                    </form>
+                </div>
             </article>
             <article>
                 <h2>Header 2</h2>
@@ -121,7 +134,7 @@
         </section>
     </main>
     <div class="sticky">
-        <h1>We have some irrisistible offers!</h1>
+        <h5>We have some irrisistible offers!</h5>
     </div>
     <footer>
         <div>
@@ -142,6 +155,6 @@
     <div class="hair2">
         <img src="images/hairday3.png">
     </div> -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
