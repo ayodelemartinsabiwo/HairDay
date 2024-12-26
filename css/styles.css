@@ -573,7 +573,7 @@ footer div p > img{
     #owners{
        flex: 100%;
        margin-top: 5rem;
-       margin-bottom: 5%;
+       /* margin-bottom: 3%; */
     }
 
     #owners #ownersHeader{
@@ -591,7 +591,7 @@ footer div p > img{
     .ownerstory{
         display: flex;
         flex: 0 1 auto;
-        margin-top: 5rem;
+        margin-top: 10rem;
         /* gap: 1rem; */
 
     }
@@ -617,7 +617,74 @@ footer div p > img{
     }
 
 
+    #recommendation{
+        margin: 10rem auto;
+    }
 
+    #rec_customers{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        flex: auto;
+        justify-content: center;
+        /* overflow: auto; */
+        margin-top: 3rem;
+
+    }
+
+    #rec_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 1 auto;
+    }
+
+    #rec_header hr{
+        width: 100%;
+        flex: 4;
+        margin-left: 2rem;
+
+    }
+
+    #rec_header h1{
+
+        flex: 2;
+
+    }
+
+    #rec_comments{
+        background-color: #ffffff5f;
+        width: 100%;
+        max-width: 35rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: 8rem;
+
+    }
+
+    .customer-entry{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        width: 25rem;
+        height: auto;
+        background-color: #f7f7f781;
+        padding: 0 1.3rem;
+        border: solid 1px rgba(179, 179, 179, 0.573);
+        border-radius: 10px;
+        /* flex: auto; */
+        border-top: solid 5px rgb(165, 164, 164);
+
+
+    }
+
+    span{
+        color: #fb3232;
+        font-size: xx-large;
+
+    }
 
 
 }
@@ -1040,6 +1107,38 @@ footer div p > img{
         font-size: medium;
     }
 
+    #rec_header hr{
+        flex: 1.1;
+    }
+
+    #rec_header h1{
+        font-size: 25px;
+        font-weight: 640;
+        flex: 4.5;
+    }
+
+    .customer-entry{
+        width: inherit;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+        flex: auto;
+    }
+
+    #rec_customers{
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+        max-width: max-content;
+        margin-top: 3rem;
+    }
+
+    #recommendations{
+        margin: auto;
+        width: 5rem;
+    }
+
+
 
 }
 
@@ -1181,6 +1280,12 @@ footer div p > img{
     #book{
         top: 1rem !important;
         bottom: 0;
+    }
+
+    #rec_header h1{
+
+        font-weight: 770;
+
     }
 
 }
