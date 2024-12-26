@@ -19,6 +19,10 @@ body{
 
 }
 
+#aboutUs p, #tutorial p, #owners p{
+    text-align: justify;
+}
+
 /* .hair1{
     display: block;
     z-index: -10;
@@ -60,6 +64,10 @@ header > img {
     align-items: center;
 }
 
+nav{
+    margin-top: 2.4%;
+}
+
 
 nav ul{
     display: flex;
@@ -98,7 +106,7 @@ nav li > a:hover {
 
 main section:nth-child(1) article:nth-child(1) h1{
     /* color: green; */
-    width: 30%;
+    width: 20rem;
     font-weight: 700;
 }
 
@@ -562,6 +570,55 @@ footer div p > img{
 
     }
 
+    #owners{
+       flex: 100%;
+       margin-top: 5rem;
+       margin-bottom: 5%;
+    }
+
+    #owners #ownersHeader{
+        display: flex;
+        flex:100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #ownersHeader hr{
+        width: 100%;
+    }
+
+    .ownerstory{
+        display: flex;
+        flex: 0 1 auto;
+        margin-top: 5rem;
+        /* gap: 1rem; */
+
+    }
+
+    .oa{
+        /* width: 83%; */
+        flex: 1;
+    }
+
+    .ob{
+        flex: 2;
+    }
+
+    .oa img{
+        width: 80%;
+        border-radius: 3rem;
+        border-top: solid 13px;
+        box-shadow: 16px 16px 14px rgba(0, 0, 0, 0.195);
+    }
+
+    .ob p{
+        font-size: larger;
+    }
+
+
+
+
 
 }
 
@@ -581,21 +638,31 @@ footer div p > img{
 
     }
 
+}
 
+@media (min-width: 1200px){
+    #on_t{
+        font-size: xx-large;
+    }
 
 
 }
+
+
 
 @media screen and (max-width: 1500px){
     section:nth-child(3) article #saloonImg{
         min-height: 37rem;
     }
+
 }
 
 @media screen and (max-width: 1300px){
     section:nth-child(3) article #saloonImg{
         min-height: 33rem;
     }
+
+
 }
 
 
@@ -683,6 +750,7 @@ footer div p > img{
     footer div img{
         width: 6rem !important;
     }
+
 
 }
 
@@ -819,34 +887,6 @@ footer div p > img{
 
     }
 
-    /* section article #saloonImg .c{
-        width: 6rem;
-        margin-top: 0;
-
-    } */
-
-
-
-    /* main section:nth-child(3) #saloonImg > div:nth-child(2){
-        flex:1;
-        position: relative;
-        align-self: flex-end;
-        margin-right: 2rem;
-        bottom: 3rem;
-        justify-self: flex-start;
-        padding: 0;
-
-
-    } */
-
-    /* main section:nth-child(3) #saloonImg > div:nth-child(4){
-        flex: 5;
-        position: relative;
-        align-self: flex-end;
-        bottom: 3rem;
-        padding: 0 20px;
-    } */
-
     section article #p1{
         font-size: 0.5rem;
 
@@ -866,11 +906,6 @@ footer div p > img{
     #comb{
         width: 4rem;
     }
-
-    /* #saloonImg{
-        flex-wrap: wrap;
-        min-height: 400rem ;
-    } */
 
     #saloonImg{
         display: flex;
@@ -892,40 +927,26 @@ footer div p > img{
     }
 
     #aa{
-        /* flex: 1 1 300% !important; */
-        /* width: 100% !important; */
-        /* max-width: 100% !important; */
-        /* margin: 0; */
         margin-bottom: 5.5rem;
         order: 1;
-        /* display: block; */
-        /* background-color: #fb3232; */
     }
 
     #aa .aa{
         width: 214% !important;
-        /* max-width: 100% !important; */
-        /* margin: 0; */
+
     }
 
     #b{
         display: block;
         /* flex: 1; */
         margin: 2rem 0;
-        /* max-width: 100% !important; */
-        /* width: 100% !important; */
-        /* height: auto !important; */
         order: 2;
-        /* margin-bottom: -18% !important; */
-        /* background-color: #07060465; */
         text-align: end;
 
     }
 
     #b .b{
         width: 117.6% !important;
-        /* height: auto !important;
-        text-align: center !important; */
     }
 
     section article .saloonEnv{
@@ -935,13 +956,6 @@ footer div p > img{
     .sticky{
         background-color: darkseagreen;
     }
-
-    /* section article .b{
-
-        /* align-items: normal; */
-        /* margin-left: auto; */
-        /* margin-top: auto;
-    } */
 
     .c{
         width: 6rem !important;
@@ -964,11 +978,6 @@ footer div p > img{
 
 
     }
-
-    /* #services div:nth-child(2){
-
-        background-color: #fb3232;
-    } */
 
     #services > div:nth-child(2)  div:nth-child(3) img{
         height: 15rem !important;
@@ -1006,6 +1015,29 @@ footer div p > img{
     #book{
         top: 1rem !important;
         bottom: 0;
+    }
+
+    .ownerstory{
+        display: block;
+        text-align: center;
+
+    }
+
+    .oa{
+        flex: none;
+        margin-bottom: 15%;
+    }
+
+    .oa img{
+        box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.214);
+    }
+
+    .ob{
+        flex: none;
+    }
+
+    .ob p{
+        font-size: medium;
     }
 
 
