@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.querySelector('#form');
+    const form = document.querySelector('#forms');
     const recCustomers = document.querySelector('#rec_customers');
 
     form.addEventListener('submit', function(event) {
@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Clear the form
             form.reset();
+
         }
     });
 });
