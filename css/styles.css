@@ -504,7 +504,54 @@ footer div p > img{
 
 }
 
-@media (max-width: 1920px){
+@media (max-width: 2560px){
+    #saloonImg{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 1 auto;
+        gap: 1rem;
+    }
+
+    #saloonImg #lineClipper{
+        flex: 1;
+        position: absolute;
+        width: 50% !important;
+        margin-top: 30% ;
+    }
+
+    #lineClipper div:nth-child(3){
+        flex: 8 !important;
+    }
+
+    #aa{
+        flex: 3.5 !important;
+        margin-top: 0 !important;
+        margin: auto;
+
+    }
+
+    .aa{
+        width: 70% !important;
+    }
+
+    #b{
+        flex: 1.5 !important;
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 2560px), (max-width: 1920px){
+
+    #lineClipper{
+        margin-top: 48rem !important;
+    }
+
+    #saloonImg #lineClipper div:nth-child(3){
+        flex: 5 !important;
+    }
+
     #tutoriallnk{
         text-decoration: none;
         color: #fb3232;
@@ -514,7 +561,6 @@ footer div p > img{
     #tutorial{
         flex: 100%;
         margin-bottom: 4rem;
-        /* overflow: hidden; */
     }
 
     #tutorialHeader{
@@ -573,7 +619,6 @@ footer div p > img{
     #owners{
        flex: 100%;
        margin-top: 5rem;
-       /* margin-bottom: 3%; */
     }
 
     #owners #ownersHeader{
@@ -592,12 +637,11 @@ footer div p > img{
         display: flex;
         flex: 0 1 auto;
         margin-top: 10rem;
-        /* gap: 1rem; */
 
     }
 
     .oa{
-        /* width: 83%; */
+
         flex: 1;
     }
 
@@ -627,7 +671,6 @@ footer div p > img{
         flex-wrap: wrap;
         flex: auto;
         justify-content: center;
-        /* overflow: auto; */
         margin-top: 3rem;
 
     }
@@ -666,15 +709,12 @@ footer div p > img{
     }
 
     .customer-entry{
-        /* display: flex; */
-        /* flex-wrap: wrap; */
         width: 25rem;
         height: auto;
         background-color: #f7f7f781;
         padding: 0 1.3rem;
         border: solid 1px rgba(179, 179, 179, 0.573);
         border-radius: 10px;
-        /* flex: auto; */
         border-top: solid 5px rgb(165, 164, 164);
 
 
@@ -700,7 +740,6 @@ footer div p > img{
     }
 
     #services > div:nth-child(2){
-        /* background-color: #fb3232; */
         gap: 1rem;
 
     }
@@ -737,25 +776,19 @@ footer div p > img{
     section:nth-child(3) article #saloonImg{
         min-height: 35rem;
         display: flex;
-        /* background-color: #fb3232; */
         flex: 1 1 auto;
     }
 
     #aboutus #saloonImg #lineClipper{
         display: flex;
-        /* background-color: aquamarine; */
         justify-content: center;
         align-items: center;
         margin-right: 1rem;
-        /* margin-bottom: 0 !important; */
 
         bottom: 0 !important;
     }
 
     #aboutus #saloonImg #aa{
-        /* display: contents; */
-        /* background-color: blueviolet; */
-
         width: 10rem !important;
     }
 
@@ -765,9 +798,6 @@ footer div p > img{
     }
 
     #aboutus #saloonImg #b{
-        /* text-align: right !important; */
-        /* margin-left: 40rem; */
-        /* background-color: rgb(226, 43, 198); */
         padding-bottom: 0 !important;
         max-width: 18rem !important;
         margin-top: -5rem !important;
@@ -781,9 +811,6 @@ footer div p > img{
         padding-bottom: 0;
         bottom: 0 !important;
         width: 18rem;
-        /* margin-left: 0 !important; */
-
-
     }
 
     #services {
@@ -807,12 +834,6 @@ footer div p > img{
 
 
     }
-
-    /* #services div:nth-child(2){
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-    } */
 
     footer div img{
         width: 6rem !important;
@@ -876,11 +897,6 @@ footer div p > img{
         min-height: 400rem ;
         gap: 10px;
     }
-
-    /* section article .saloonEnv{
-        width: 100%;
-
-    } */
 
     .a{
         padding-bottom: -15px;
@@ -977,18 +993,14 @@ footer div p > img{
     #saloonImg{
         display: flex;
         flex-direction: column;
-        /* height: auto !important; */
         overflow: hidden;
         width: 100% !important;
         max-width: 100% !important;
-        /* background-color: blueviolet; */
         gap: 1rem !important;
 
     }
 
     #lineClipper{
-        /* z-index: 100; */
-        /* background-color: #fb3232; */
         order: 3;
         margin-top: inherit !important;
     }
@@ -1005,7 +1017,6 @@ footer div p > img{
 
     #b{
         display: block;
-        /* flex: 1; */
         margin: 2rem 0;
         order: 2;
         text-align: end;
@@ -1039,7 +1050,6 @@ footer div p > img{
 
 
     #services div:nth-child(2){
-        /* margin: auto; */
         text-align: center;
         width: 23rem;
 
@@ -1055,16 +1065,12 @@ footer div p > img{
         height: auto !important;
         width: 100% !important;
         max-width: 100% !important;
-        /* background-color: #a09191; */
     }
 
     .f{
         width: 100% !important;
         height: auto !important;
         margin-top: 1rem !important;
-
-        /* background-color: #a09191; */
-
     }
 
     #services div div img{
@@ -1180,35 +1186,24 @@ footer div p > img{
         flex-direction: column;
         height: auto !important;
         overflow: hidden;
-        /* width: 100% !important; */
         max-width: 100% !important;
-        /* background-color: blueviolet; */
         gap: 5rem !important;
 
     }
 
     #lineClipper{
-        /* z-index: 100; */
-        /* background-color: #fb3232; */
         order: 3;
-
         margin: 0 ;
     }
 
     #aa{
-        /* flex: 1 1 300% !important; */
         width: 100% !important;
-        /* max-width: 100% !important; */
-        /* margin: 0; */
         margin-bottom: 1rem;
         order: 1;
-        /* display: block; */
-        /* background-color: #fb3232; */
     }
 
     #aa .aa{
         width: 180% !important;
-        /* max-width: 100% !important; */
         margin: 0;
     }
 
@@ -1223,8 +1218,6 @@ footer div p > img{
 
     section article #aa,
     section article #b{
-        /* height: auto; */
-        /* width: 100%; */
         object-fit: cover;
     }
 
@@ -1232,12 +1225,7 @@ footer div p > img{
         width: 3.2rem;
     }
 
-    /* #services div:nth-child(2){
-        background-color: #fb3232;
-    } */
-
     #services div:nth-child(2){
-        /* margin: auto; */
         text-align: center;
         width: auto;
     }
@@ -1253,16 +1241,12 @@ footer div p > img{
         height: auto !important;
         width: 100% !important;
         max-width: 100% !important;
-        /* background-color: #a09191; */
     }
 
     .f{
         width: 100% !important;
         height: auto !important;
         margin-top: 1rem !important;
-
-        /* background-color: #a09191; */
-
     }
 
 
