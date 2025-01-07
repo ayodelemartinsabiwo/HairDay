@@ -1051,6 +1051,8 @@ footer div p > img{
 
     #services{
         margin-top: 8.4rem;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     #services > div:nth-child(2){
@@ -1058,8 +1060,14 @@ footer div p > img{
 
     }
 
+
+    #services div:nth-child(1){
+        margin-bottom: 3%;
+        width: 100% !important;
+    }
+
     #services > div:nth-child(1) h2{
-        padding-left: 5;
+        margin-left: 0;
     }
 
 
